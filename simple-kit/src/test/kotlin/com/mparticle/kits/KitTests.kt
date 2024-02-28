@@ -6,7 +6,7 @@ import org.junit.Test
 import org.mockito.Mockito
 
 class KitTests {
-    private val kit = ExampleKit()
+    private val kit = mParticleAnalyticsKit()
 
     @Test
     @Throws(Exception::class)

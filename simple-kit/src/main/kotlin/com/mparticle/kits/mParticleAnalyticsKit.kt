@@ -24,7 +24,7 @@ import com.mparticle.MParticle
  * - ./src/main/AndroidManifest.xml
  * - ./consumer-proguard.pro
  */
-class ExampleKit : KitIntegration() {
+class mParticleAnalyticsKit : KitIntegration() {
     private val MP_ANALYTICS_EVENT_NAME = "Registration Submit"
 
     public override fun onKitCreate(
