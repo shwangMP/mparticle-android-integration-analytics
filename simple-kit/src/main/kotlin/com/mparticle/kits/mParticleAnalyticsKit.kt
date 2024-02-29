@@ -51,6 +51,7 @@ class mParticleAnalyticsKit : KitIntegration() {
             val event = MPEvent.Builder("User Alias", MParticle.EventType.Other)
                 .customAttributes(customAttributes)
                 .build()
+            MParticle.getInstance()?.logEvent(event);
         }
         return super.logEvent(baseEvent)
     }
